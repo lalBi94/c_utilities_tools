@@ -26,7 +26,7 @@ int main(int argc, char* argv[]){
     if(argc != 2) 
         exit(1);
 
-    else 
+    else
         SEPARATION_OF_ARGS2_TO_ARGV(argv);
 
     exit(0);
