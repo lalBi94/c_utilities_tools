@@ -2,11 +2,10 @@
 #include <windows.h>
 #include "lib_lm.h"
 
-#define LICENCE_MAX_LENGTH 5
-#define WHEN_ADDING_LICENCE_IS_INCORRECT printf("\n\nUsage: licenceManage <option (a | r | m)> <if_a_put_the_licence))>\n\n")
-#define PAUSE_END printf("Press any key to quit...")
+/*The all of the function function is explain in lib_lm.h ! */
 
 int main(int argc, char* argv[]){
+    SetConsoleTitle("Licence Manager v.0 - Bilaal#7175");
     system("color 0f");
 
     if(argc < 2){
@@ -15,16 +14,19 @@ int main(int argc, char* argv[]){
         exit(1);
     }
 
-    if(*argv[1] == 'a'){
-        
+    if(*argv[1] == 'a' && argc == 3){
         ADD_LICENCE(argv[2]);
     }
 
-    else if(*argv[1] == 'r'){
+    else if(*argv[1] == 'l' && argc == 2){
+        LIST_OF_LICENCE();
+    }
+
+    else if(*argv[1] == 'r' && argc == 3){
         //REMOVE_LICENCE();
     }
 
-    else if(*argv[1] == 'm'){
+    else if(*argv[1] == 'm' && argc == 4){
         //MODIFY_LICENCE();
     }
 

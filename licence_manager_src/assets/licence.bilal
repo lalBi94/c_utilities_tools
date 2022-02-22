@@ -5,7 +5,7 @@
     *USAGE_LANGUAGE: 
         "ONLY C with the more complexe and optimise syntaxe. (i'll not use chain list :D). Only struct and malloc";
 
-    *INFO: "Your licence checker have to skip the all of lines until 9 :)";
+    *INFO: "Your licence checker have to skip the all of lines until 11 :)";
 };
 
 ⇓⇓⇓⇓⇓⇓⇓ [LICENCE] ⇓⇓⇓⇓⇓⇓⇓

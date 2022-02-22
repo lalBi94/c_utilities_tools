@@ -1,5 +1,6 @@
 @echo off
-mode con:cols=100 lines=20
+mode con:cols=200 lines=60
+
 :boucle
 
 path C:\Users\probo\Desktop\c_utilities_tools\licence_manager_src\bin\minGW\bin
@@ -20,7 +21,7 @@ gcc *.c -o licenceManage
 
 if not exist licenceManage color f0
 if exist licenceManage color f0
-licenceManage a y39df
+licenceManage l
 
 pause >nul
 del licenceManage
