@@ -55,6 +55,8 @@ void ADD_LICENCE(char* THE_LICENCE){
         fclose(LICENCE_BILAL);
         system("color a");
         printf("\n\nThe licence [%s] as been save correctly at licence.bilal !\n\n\n", L.BUYER);
+
+        DUPLI_CHECK(L.BUYER);
     }
 
     L.ID++;

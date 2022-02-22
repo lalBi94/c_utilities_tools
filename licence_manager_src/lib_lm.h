@@ -15,7 +15,7 @@ struct LICENCE_MANAGER{
 int main(int argc, char* argv[]); //main | TAKE a, l, r, m in arguments. | licenceManage <option (a | r | m | l)>
 void LIST_OF_LICENCE(); //list the licence in terminal |
 void ADD_LICENCE(char* THE_LICENCE); //adding licence to licence.bilal | TAKE THE LICENCE TO ADD (argv[2]) IN PARAMETER 
-void DUPLI_CHECK(int ID_LICENCE, char* THE_LICENCE); //check if licence/id already exit; | TAKE THE LICENCE ID AND THE LICENCE ALREADY EXIT IN LICENCE_BILAL
+void DUPLI_CHECK(char* THE_LICENCE); //check if licence/id already exit; | TAKE THE LICENCE ID AND THE LICENCE ALREADY EXIT IN LICENCE_BILAL
 //void DELETE_LICENCE(char* THE_LICENCE);
 //void MODIFI_LICENCE(char* THE_LICENCE, char* THE_NEW_LICENCE);
 
