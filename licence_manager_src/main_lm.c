@@ -23,7 +23,7 @@ int main(int argc, char* argv[]){
     }
 
     else if(*argv[1] == 'r' && argc == 3){
-        //REMOVE_LICENCE();
+        DELETE_LICENCE(argv[2]);
     }
 
     else if(*argv[1] == 'm' && argc == 4){

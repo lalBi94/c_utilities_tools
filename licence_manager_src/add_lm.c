@@ -9,7 +9,7 @@ char CROCHET_OPEN = '[';
 char CROCHET_CLOSE = ']';
 char SPACE = ' ';
 
-char chunks[128];
+//char CHUNKS[128]; TO INCREMENT THE ID LICENCE IN EVERY ENTRIES;
 
 void ADD_LICENCE(char* THE_LICENCE){
     struct LICENCE_MANAGER L;
@@ -56,7 +56,7 @@ void ADD_LICENCE(char* THE_LICENCE){
         system("color a");
         printf("\n\nThe licence [%s] as been save correctly at licence.bilal !\n\n\n", L.BUYER);
 
-        DUPLI_CHECK(L.BUYER);
+        //dupliCHECK
     }
 
     L.ID++;
