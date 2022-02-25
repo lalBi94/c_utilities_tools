@@ -23,11 +23,15 @@ int main(int argc, char* argv[]){
     }
 
     else if(*argv[1] == 'r' && argc == 3){
-        DELETE_LICENCE(argv[2]);
+        //DELETE_LICENCE(argv[2]);
     }
 
     else if(*argv[1] == 'm' && argc == 4){
         //MODIFY_LICENCE();
+    }
+
+    else if(*argv[1] == 't' && argc == 3){
+        IN_TEST(argv[2]); //DEV TOOLS
     }
 
     exit(0);

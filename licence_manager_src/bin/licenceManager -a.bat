@@ -18,9 +18,9 @@ echo:
 cd "C:\Users\probo\Desktop\c_utilities_tools\licence_manager_src"
 gcc *.c -o licenceManage
 
-if not exist licenceManage color f0
-if exist licenceManage color f0
-licenceManage a y39df
+if not exist licenceManage color 4
+if exist licenceManage color a
+licenceManage a
 
 pause >nul
 del licenceManage

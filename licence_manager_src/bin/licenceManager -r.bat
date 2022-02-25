@@ -21,7 +21,7 @@ gcc *.c -o licenceManage
 
 if not exist licenceManage color f0
 if exist licenceManage color f0
-licenceManage r y39df
+licenceManage r
 
 pause >nul
 del licenceManage
