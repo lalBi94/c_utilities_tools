@@ -5,12 +5,8 @@
  //to the full malloc manip;
 
 char* charmalloc(char* PRE_MALLOC, int SIZE, int TYPE){
-
     PRE_MALLOC = malloc(sizeof(TYPE) * SIZE);
-    int i = 0;
-
     scanf("%s", PRE_MALLOC);
-
     return PRE_MALLOC;
 }
 
